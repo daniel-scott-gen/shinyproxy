@@ -47,11 +47,12 @@
         <div th:if="${param.logout}">
             <p class="text-warning">You have been logged out.</p>
         </div>
+
         <div class="container-fluid">
           <div class="border border-secondary p-3 rounded">
               <p>Log in to Network Rail ALP/WPS</p>
               <p>
-                  <input type="text" name="name" class="form-control" placeholder="Username" required autofocus/>
+                  <input type="text" name="username" class="form-control" placeholder="Username" required autofocus/>
               </p>
               <p>
                   <input type="password" name="password" class="form-control" placeholder="Password" required />
@@ -63,8 +64,9 @@
                   <input type="submit" value="Login" class="btn btn-primary" />
               </p>
           </div>
+
         </div>
-        
+
     </form>
 </div>
 </body>

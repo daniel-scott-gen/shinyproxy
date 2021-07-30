@@ -119,8 +119,8 @@ public abstract class BaseController {
 			map.put("showNavbar", !Boolean.parseBoolean(environment.getProperty("proxy.hide-navbar")));
 		}
 
-		map.put("bootstrapCss", "/webjars/bootstrap/3.4.1/css/bootstrap.min.css");
-		map.put("bootstrapJs", "/webjars/bootstrap/3.4.1/js/bootstrap.min.js");
+		map.put("bootstrapCss", "/webjars/bootstrap/5.0.2/css/bootstrap.min.css");
+		map.put("bootstrapJs", "/webjars/bootstrap/5.0.2/js/bootstrap.min.js");
 		map.put("jqueryJs", "/webjars/jquery/3.5.0/jquery.min.js");
 		map.put("cookieJs", "/webjars/js-cookie/2.2.1/js.cookie.min.js");
 
