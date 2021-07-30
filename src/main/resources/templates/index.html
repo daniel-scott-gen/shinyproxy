@@ -61,7 +61,7 @@
   <div th:if="${displayAppLogos}" class="container" id="applist">
 		<div class="container-fluid">
 			<div class="row" style="margin-top:20px; margin-bottom:20px;">
-				<div class="col-3" th:each="app: ${apps}">
+				<div class="col-3" style="margin-top:20px; margin-bottom:20px;" th:each="app: ${apps}">
 					<div class="card" style="width: 18rem;">
             <img th:if="${appLogos.get(app) != null}" th:src="${appLogos.get(app)}" class="card-img-top" alt="...">
             <div class="card-body">
